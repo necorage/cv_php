@@ -1,5 +1,5 @@
 <?php
-require_once "dbconex.php";
+require_once "conex.php";
 
 class MiniLib {
     private $conn;
@@ -73,7 +73,7 @@ class MiniLib {
 
     
     public function func_hobbies() {
-        $sql_hobbies = "SELECT hobbyName, hobbyImage, style FROM `hobbies` WHERE idpi = 1";
+        $sql_hobbies = "SELECT hobbyName, hobbyImage FROM `hobbies` WHERE idpi = 1";
         $result_hobbies = mysqli_query($this->conn, $sql_hobbies);
         while($row = mysqli_fetch_assoc($result_hobbies)) {
             $profile_array[] = array("hobbyName" => $row["hobbyName"], "hobbyImage" => $row["hobbyImage"]);

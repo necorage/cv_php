@@ -26,6 +26,21 @@ H1 {
 
 H3 {
     text-transform: capitalize;
+    font-size: 24px;
+}
+
+.smallNote {
+    font-size: 12px;
+    font-style: italic;
+    color: #999;
+    margin-bottom: 10px;
+    text-align: left;
+    margin-top:-15px;
+}
+
+.skills .box{
+    margin-bottom: 15px;
+    border-bottom: 1px dashed #e8ebf1;
 }
 
 img {
@@ -69,6 +84,14 @@ img {
     margin-bottom: 15px;
 }
 
+.margin-top-15 {
+    margin-top: 15px;
+}
+
+.margin-dot {
+    margin: 2px;
+    margin-bottom: 10px;
+}
 
 .doble-linea {
     position: relative;
@@ -98,6 +121,23 @@ img {
     background-color: gray;
 }
 
+.picContainer {
+    position: relative;
+    padding-bottom: 30px;
+    margin-bottom: 20px;
+}
+
+.picText{
+    position: absolute;
+    bottom: 0;
+    left: -10px;
+    padding: 30px;
+    border: 1px solid #f5d700;
+    background-color: rgba(0, 0, 0, 0.3);
+    color: white;
+    font-size: 24px;
+    font-weight: bold;
+}
 
 .component {
     margin-bottom: 20px;
